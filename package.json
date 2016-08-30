@@ -4,20 +4,12 @@
     "keywords": [],
     "name": "baby-move",
     "pebble": {
-        "capabilities": [
-            ""
-        ],
         "displayName": "Baby movement tracker",
         "enableMultiJS": false,
-        "messageKeys": {},
+        "messageKeys": [],
         "projectType": "native",
         "resources": {
             "media": [
-                {
-                    "file": "images/action_icon_zero.png",
-                    "name": "IMAGE_ACTION_ICON_ZERO",
-                    "type": "png"
-                },
                 {
                     "file": "images/action_icon_minus.png",
                     "name": "IMAGE_ACTION_ICON_MINUS",
@@ -27,19 +19,24 @@
                     "file": "images/action_icon_plus.png",
                     "name": "IMAGE_ACTION_ICON_PLUS",
                     "type": "png"
+                },
+                {
+                    "file": "images/action_icon_zero.png",
+                    "name": "IMAGE_ACTION_ICON_ZERO",
+                    "type": "png"
                 }
             ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
-            "aplite",
             "basalt",
-            "chalk"
+            "chalk",
+            "diorite"
         ],
         "uuid": "2f837545-ca0f-43ae-a6ab-f469ba240b2b",
         "watchapp": {
             "watchface": false
         }
     },
-    "version": "2.23.0"
+    "version": "4.0.0"
 }
