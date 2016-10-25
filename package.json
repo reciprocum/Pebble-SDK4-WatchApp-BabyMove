@@ -11,8 +11,8 @@
         "resources": {
             "media": [
                 {
-                    "file": "images/action_icon_minus.png",
-                    "name": "IMAGE_ACTION_ICON_MINUS",
+                    "file": "images/action_icon_zero.png",
+                    "name": "IMAGE_ACTION_ICON_ZERO",
                     "type": "png"
                 },
                 {
@@ -21,22 +21,24 @@
                     "type": "png"
                 },
                 {
-                    "file": "images/action_icon_zero.png",
-                    "name": "IMAGE_ACTION_ICON_ZERO",
+                    "file": "images/action_icon_minus.png",
+                    "name": "IMAGE_ACTION_ICON_MINUS",
                     "type": "png"
                 }
             ]
         },
         "sdkVersion": "3",
         "targetPlatforms": [
+            "aplite",
             "basalt",
             "chalk",
-            "diorite"
+            "diorite",
+            "emery"
         ],
         "uuid": "2f837545-ca0f-43ae-a6ab-f469ba240b2b",
         "watchapp": {
             "watchface": false
         }
     },
-    "version": "4.0.0"
+    "version": "4.2.0"
 }

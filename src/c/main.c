@@ -1,9 +1,9 @@
 /*
-   Project: Baby move counter (watchapp)
-   File   : main.c
-   Author : Afonso Santos, Portugal
+   WatchApp: Baby move counter
+   File    : main.c
+   Author  : Afonso Santos, Portugal
 
-   Last revision: 20h31 August 27 2016
+   Last revision: 25 October 2016
 */
 
 #include "pebble.h"
@@ -61,7 +61,7 @@ static int s_target_MM   ;
 
 GSize unobstructed_screen ;
 
-uint8_t
+int16_t
 percentOf( const int16_t pct, const int16_t max )
 {
   return (max * pct) / 100 ;
@@ -108,7 +108,7 @@ update_text
   {
     static char target_text[50] ;
 
-    snprintf( target_text, sizeof(target_text), "%u: @%uh%u", MOVS_TARGET, s_target_HH, s_target_MM ) ;
+    snprintf( target_text, sizeof(target_text), "%u: @%uh%02u", MOVS_TARGET, s_target_HH, s_target_MM ) ;
     text_layer_set_text( s_target_text_layer, target_text ) ;
   }
 
